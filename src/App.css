@@ -20,10 +20,6 @@ body {
   margin: 50px;
 }
 
-.planeta {
-  width: 200px;
-}
-
 .missoes {
   align-content: center;
   background-color: rgba(0, 0, 0, 0.9);
@@ -42,4 +38,35 @@ body {
   border-radius: 30px;
   margin: 10px;
   width: 400px;
+}
+
+.planet-img {
+  width: 200px;
+}
+
+@media screen and (max-width: 1700px) {
+  .planetas {
+    display: flex;
+    flex-flow: wrap;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .missoes {
+    width: 500px;
+  }
+  
+  .planet-card {
+    width: 100px;
+  }
+
+  .planet-img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .missoes {
+    width: 300px;
+  }
 }
