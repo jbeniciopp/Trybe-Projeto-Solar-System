@@ -1,0 +1,45 @@
+body {
+  background-image: url(../src/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Epilogue , sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.planetas {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.planeta {
+  width: 200px;
+}
+
+.missoes {
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  width: 1000px;
+}
+
+.missoes-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.missoes-card {
+  border: white solid 1px;
+  border-radius: 30px;
+  margin: 10px;
+  width: 400px;
+}
